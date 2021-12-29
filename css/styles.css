@@ -25,8 +25,10 @@ body {
     .logo-studio-header {color:#000000;}
     .list {list-style: none}
     
-
     .site-nav .link {color: var(--title-text-color);}
+
+    .site-nav .link.current {color: var(--accent-color);}
+
 
     .site-nav .link:hover,
     .site-nav .link:focus
@@ -60,3 +62,7 @@ body {
 
     /*Footer*/
     .logo-studio-footer {color: var(--primary-white-color);}
+
+
+    /*Portfolio*/
+   .works-title {color: var(--title-text-color);} 
