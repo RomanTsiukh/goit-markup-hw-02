@@ -1,0 +1,62 @@
+    /*цвет основного текста #212121*/
+    /*вторичный цвет текста #757575*/ 
+    /*белый цвет #FFFFFF*/
+    /*акцент #2196F3*/
+    /*цвет второй части логотипа в хедере #000000;*/
+
+    /*цвет фона #E5E5E5*/
+    /*вторичный цвет фона #F5F4FA*/
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #E5E5E5;
+    --primary-white-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    }
+
+    /*Header*/
+    .logo  {color: #2196F3;}   
+    .logo-studio-header {color:#000000;}
+    .list {list-style: none}
+    
+
+    .site-nav .link {color: var(--title-text-color);}
+
+    .site-nav .link:hover,
+    .site-nav .link:focus
+    {color: var(--accent-color);}
+
+    .contacts  .link:hover,
+    .contacts  .link:focus
+    {color: var(--accent-color);}
+
+
+    /*Hero*/
+    .hero-title {color: black}
+
+    /*Section*/
+    .section .section-title {color: var(--title-text-color);}
+    .section-title {list-style: none;}
+
+    /*Features*/
+    .features-list .title {color: var(--title-text-color);}
+    .features-list {list-style: none;}
+
+    /*Eployees*/
+    .eployees-card .title {color: var(--title-text-color);}
+    .eployees-card {list-style: none;}
+
+    /*Button*/
+    .button-hero {
+        background-color: var(--accent-color);
+        color: var(--primary-white-color);
+    }
+
+    /*Footer*/
+    .logo-studio-footer {color: var(--primary-white-color);}
