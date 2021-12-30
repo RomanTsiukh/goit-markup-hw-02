@@ -66,3 +66,8 @@ body {
 
     /*Portfolio*/
    .works-title {color: var(--title-text-color);} 
+
+   .filters-site .button:hover,
+   .filters-site .button:focus
+   {color: var(--primary-white-color);
+    background-color: var(--accent-color);}
