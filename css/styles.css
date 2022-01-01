@@ -76,9 +76,10 @@ body {
 
     /*Section*/
     .section .section-title {color: var(--title-text-color);}
+    
     .section-title {
         list-style: none;
-        font-weight: bold;
+        font-weight: 700;
         font-size: 36px;
         line-height: 1.2;
         text-align: center;
@@ -132,7 +133,7 @@ body {
         left: 700px;
         top: 430px;
 
-        font-weight: bold;
+        font-weight: 700;
         font-size: 16px;
         line-height: 2;
     }
@@ -155,8 +156,7 @@ body {
         background-color: #2F303A;
         }
 
-
-
+        
     /*Portfolio*/
 
     /*Button potfolio*/
@@ -186,7 +186,6 @@ button {cursor: pointer;}
     .works .defenition {
         text-align: center;
 
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.87;
     }
