@@ -31,6 +31,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    text-decoration: none;
     } 
     
     
@@ -40,9 +41,9 @@ body {
     .site-nav .link {
         color: var(--title-text-color);
         font-weight: 500;
-        font-size: 14px;
         line-height: 1.1;
         letter-spacing: 0.02em;
+        text-decoration: none;
     }
 
     .site-nav .link.current {color: var(--accent-color);}
@@ -51,6 +52,10 @@ body {
     .site-nav .link:hover,
     .site-nav .link:focus
     {color: var(--accent-color);}
+
+    .contacts  .link {
+        text-decoration: none;
+        color: var(--primary-text-color);}
 
     .contacts  .link:hover,
     .contacts  .link:focus
@@ -66,6 +71,7 @@ body {
         line-height: 1.4;
         letter-spacing: 0.06em;
         text-align: center;
+        text-transform: uppercase;
     }
 
     /*Section*/
@@ -107,15 +113,18 @@ body {
 
     .eployees-card {list-style: none;}
 
-    /*Button*/
-    button {font-family: inherit;
-        position: absolute;
+    /*Button main*/
+    button {cursor: pointer;}
+    .button {
+        font-family: inherit;
+        /*position: absolute;*/
         width: 200px;
         height: 50px;
         left: 700px;
         top: 430px;
     }
-    .button-hero {
+
+    .hero .button {
         background-color: var(--accent-color);
         color: var(--primary-white-color);
         width: 200px;
@@ -131,11 +140,53 @@ body {
     /*Footer*/
     .logo-studio-footer {color: var(--primary-white-color);}
 
+    .address .link {color: var(--primary-white-color);}
+
+    .address .contacts
+     {color: rgba(255, 255, 255, 0.6);}
+
+     .address .contacts,
+     .address .link {
+         text-decoration: none;
+         font-style: normal;
+     }
+
+     footer {
+        background-color: #2F303A;
+        }
+
+
 
     /*Portfolio*/
-   .works-title {color: var(--title-text-color);} 
 
-   .filters-site .button:hover,
-   .filters-site .button:focus
-   {color: var(--primary-white-color);
-    background-color: var(--accent-color);}
+    /*Button potfolio*/
+button {cursor: pointer;}
+
+    .filters .button-filters {
+        background-color: #F5F4FA;
+        color: var(--title-text-color);
+        }
+
+    .filters  .button-filters:hover,
+    .filters  .button-filters:focus{
+         color: var( --primary-white-color);
+         background-color: var(--accent-color);
+    }
+
+  .works-title {
+      text-align: center;
+      color: var(--title-text-color);
+      
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 2;     
+      letter-spacing: 0.06em;
+    } 
+
+    .works .defenition {
+        text-align: center;
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.87;
+    }
