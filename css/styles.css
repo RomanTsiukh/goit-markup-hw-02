@@ -146,13 +146,17 @@ body {
     .address .contacts
      {color: rgba(255, 255, 255, 0.6);}
 
-     .address .contacts,
-     .address .link {
+    .address .contacts:hover,
+    .address .link:hover
+     {color: var(--accent-color);}
+
+    .address .contacts,
+    .address .link {
          text-decoration: none;
          font-style: normal;
      }
 
-     footer {
+    footer {
         background-color: #2F303A;
         }
 
